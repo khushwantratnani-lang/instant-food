@@ -2,6 +2,12 @@
 
 A desktop food ordering app with a graphical interface, built in **Python** with **Tkinter** and a **MySQL** database. It began as a terminal program and was rebuilt as a full GUI application.
 
+## Screenshots
+
+![Menu and basket](screenshots/menu.png)
+![Order tracking](screenshots/tracking.png)
+![Staff dashboard](screenshots/dashboard.png)
+
 ## Features
 
 **Customers**
@@ -61,3 +67,7 @@ The tests run against your MySQL server using a separate `instant_food_test` dat
 - An order and its items are saved in a single transaction, so a failure never leaves half an order behind.
 - Order lines keep their own copy of the dish name and price, so deleting a dish does not change past orders.
 - Staff login locks out after five wrong attempts on the login screen.
+
+## Author
+
+Khushwant Kumar, BSc Computer Science student at Aston University. Released under the MIT licence.
